@@ -1,0 +1,52 @@
+.red-button {
+    background-color: crimson;
+    color: white;
+}
+
+.flex-img {
+    display: flex;
+}
+
+.flex-img img {
+    height: 57px;
+    width: 90px;
+}
+
+.new-blog {
+    /* background-color: green; */
+    height: 193px;
+    width: 242px;
+    padding-top: 36px;
+}
+
+.new-blog-img {
+    /* background-color: blanchedalmond; */
+    margin-left: 12px;
+
+}
+
+.caption-new {
+
+    /* background-color: yellowgreen; */
+    margin-top: 42px;
+    margin-left: 32px;
+    margin-right: 28px;
+}
+
+
+
+.team-names {
+    /* background-color: aqua; */
+    font-size: 21px;
+    font-weight: 700;
+    width: 206px;
+    margin-left: -11px;
+
+}
+
+.match-time {
+    /* background-color: red; */
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: -3px
+}
