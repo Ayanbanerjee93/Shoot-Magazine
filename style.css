@@ -238,9 +238,211 @@ hr {
                    Responsive css
 ======================================================== */
 
-@media screen and (max-width: 576px) {
-    .big-para {
+@media screen and (max-width:576px) {
+
+    body {
+        max-width: fit-content;
+    }
+
+    .header {
         flex-direction: column;
-        color: aqua;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+        width: 555px;
+    }
+
+    .big-para {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .small-para {
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .Button {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-image img {
+        margin-left: 16px;
+    }
+
+    /* header ends & left div starts */
+
+    .flexible-main-grid {
+        flex-direction: column;
+
+
+    }
+
+    .left-grid-div {
+        background-color: white;
+        color: #FFFFFF;
+        margin-left: 435px;
+        padding-left: 23px;
+        padding-bottom: 53px;
+        text-decoration: none;
+        border-radius: none;
+        /* width: 68.5%; */
+        /* height: 34%; */
+        /* border-radius: 12px; */
+        /* padding-top: 30px; */
+    }
+
+    .button1 {
+        height: 64px;
+        width: 280px;
+        background-color: white;
+        border-radius: 6px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+
+    }
+
+    .button1:hover {
+        background-color: #FFFFFF;
+    }
+
+    .crimson {
+        background-color: crimson;
+        color: white;
+    }
+
+    /* right div blogs */
+
+    .right-div-vlogs {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        margin-left: 483px;
+        align-items: center;
+    }
+
+    /* footer */
+
+    .listed-items ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .footer-head {
+        margin-left: 115px;
+    }
+
+}
+
+
+
+
+/* -------------medium device----------- */
+@media screen and (min-width:577px) and (max-width:1200px) {
+    body {
+        max-width: fit-content;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+        width: 555px;
+        margin-left: -147px;
+    }
+
+    .big-para {
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 98px;
+    }
+
+    .small-para {
+        text-align: center;
+        font-weight: 100;
+        margin-left: 102px;
+    }
+
+    .Button {
+        margin-left: 110px;
+    }
+
+    .header-image img {
+        margin-left: 65px;
+    }
+
+    /*--------------------------------- header ends & left div starts */
+
+    .flexible-main-grid {
+        flex-direction: column;
+
+
+    }
+
+    .left-grid-div {
+        background-color: white;
+        color: #FFFFFF;
+        margin-left: 51px;
+        padding-left: 23px;
+        padding-bottom: 53px;
+        text-decoration: none;
+        border-radius: none;
+
+    }
+
+    .button1 {
+        height: 64px;
+        width: 280px;
+        background-color: white;
+        border-radius: 6px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+
+    }
+
+    .button1:hover {
+        background-color: #FFFFFF;
+    }
+
+    .crimson {
+        background-color: crimson;
+        color: white;
+    }
+
+    /*----------------------------------------------- right div blogs */
+
+    .right-div-vlogs {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-left: 100px;
+        align-items: center;
+    }
+
+    /* footer */
+
+    .listed-items ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .footer-head {
+        margin-left: 115px;
     }
 }
+
+/* ----------------------------------------------------------------- */
+/*======================================================
+                   Responsive css ends
+======================================================== */
